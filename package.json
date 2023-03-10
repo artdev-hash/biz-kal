@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "homepage": "https://artdev-hash.github.io/biz-kal/",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "sh deploy.sh"
+  
   },
   "dependencies": {
     "vue": "^3.2.47",
