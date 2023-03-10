@@ -8,4 +8,4 @@ export default defineConfig({
   plugins: [vue()],
   base: '/biz-kal/'
   }
-})
+)
