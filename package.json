@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "homepage": "https://artdev-hash.github.io/biz-kal/",
+    "homepage": "https://artdev-hash.github.io/biz-kal",
     "deploy": "sh deploy.sh",
     "dev": "vite",
     "build": "vite build",
