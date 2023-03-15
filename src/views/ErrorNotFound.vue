@@ -1,12 +1,9 @@
+<script setup>
+import error from '../components/error.vue'
+</script>
+
 <template>
-      <div>
-        <div style="font-size: 30vh">
-          404
-        </div>
-  
-        <div class="text-h2" style="opacity:.4">
-          Oops. Nothing here...
-        </div>
-      </div>
+  <main>
+    <error />
+  </main>
 </template>
-  
