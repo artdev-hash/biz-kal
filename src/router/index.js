@@ -29,6 +29,10 @@ const router = createRouter({
       component: () => import('../views/ErrorNotFound.vue')
     }
   ]
+  ,"navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  }
 
 })
 
