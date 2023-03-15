@@ -24,7 +24,8 @@ const router = createRouter({
     }
   ],
   "navigationFallback": {
-     "rewrite": "/404.html" 
+     "rewrite": "/404.html" ,
+     "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
   }, 
   "responseOverrides": { 
     "401": { "rewrite": "/login.html", "statusCode": 200 } 
