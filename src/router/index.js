@@ -8,7 +8,9 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
+      "serve": "/index.html",
+      "statusCode": 200
     },
     {
       path: '/about',
@@ -27,9 +29,13 @@ const router = createRouter({
       // path: "*",
       path: '/:catchAll(.*)*',
       component: () => import('../views/ErrorNotFound.vue'),
-      redirect: '/'
     }
-  ]
+  ], 
+    
+  "navigationFallback": {
+       "rewrite": "/index.html",
+       "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+     }
 
 })
 
