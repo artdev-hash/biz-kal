@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import PageNotFound from '../views/ErrorNotFound.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,8 +25,12 @@ const router = createRouter({
     },
     {
       // path: "*",
-        path: '/:catchAll(.*)*',
-        redirect: '/'
+      path: "/:catchAll(.*)",
+      name: "NotFound",
+      component: PageNotFound,
+      meta: {
+        requiresAuth: false
+      }
     }
   ]
 
