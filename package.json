@@ -9,6 +9,17 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ], 
+   "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  },
   "dependencies": {
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
@@ -17,8 +28,6 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "vite": "^4.1.4"
   },
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
-  }
+  
+     
 }
