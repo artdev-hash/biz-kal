@@ -17,13 +17,6 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "vite": "^4.1.4"
   },
-  "routes": [
-    {
-      "route": "/*",
-      "serve": "/index.html",
-      "statusCode": 200
-    }
-  ], 
    "navigationFallback": {
         "rewrite": "/index.html",
         "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
