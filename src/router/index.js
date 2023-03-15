@@ -9,8 +9,6 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      "serve": "/index.html",
-      "statusCode": 200
     },
     {
       path: '/about',
@@ -29,6 +27,11 @@ const router = createRouter({
       // path: "*",
       path: '/:catchAll(.*)*',
       component: () => import('../views/ErrorNotFound.vue'),
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
     }
   ], 
     
