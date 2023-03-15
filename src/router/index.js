@@ -22,7 +22,12 @@ const router = createRouter({
       name: 'projects',
       component: () => import('../views/ProjectsView.vue')
     }
-  ]
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  }
 })
+
 
 export default router
