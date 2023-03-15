@@ -21,15 +21,14 @@ const router = createRouter({
       path: '/projects',
       name: 'projects',
       component: () => import('../views/ProjectsView.vue')
+    },
+    {
+      // path: "*",
+        path: '/:catchAll(.*)*',
+        component: () => import('../views/ErrorNotFound.vue')
     }
-  ],
-  "navigationFallback": {
-     "rewrite": "/404.html" ,
-     "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
-  }, 
-  "responseOverrides": { 
-    "401": { "rewrite": ".../index.html", "statusCode": 200 } 
-  }
+  ]
+
 })
 
 
