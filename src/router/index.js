@@ -24,7 +24,10 @@ const router = createRouter({
     }
   ],
   "navigationFallback": {
-    "rewrite": "/index.html"
+     "rewrite": "/404.html" 
+  }, 
+  "responseOverrides": { 
+    "401": { "rewrite": "/login.html", "statusCode": 200 } 
   }
 })
 
