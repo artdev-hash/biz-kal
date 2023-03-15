@@ -30,8 +30,7 @@ const router = createRouter({
     }
   ]
   ,"navigationFallback": {
-    "rewrite": '/',
-    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+    "redirect": '/',
   }
 
 })
