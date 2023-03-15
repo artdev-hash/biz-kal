@@ -24,7 +24,7 @@ const router = createRouter({
     }
   ],
   "navigationFallback": {
-    "rewrite": "/index.html",
+    "rewrite": "/index.html"
   }
 })
 
