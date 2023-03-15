@@ -26,12 +26,10 @@ const router = createRouter({
     {
       // path: "*",
       path: '/:catchAll(.*)*',
-      component: () => import('../views/ErrorNotFound.vue')
+      component: () => import('../views/ErrorNotFound.vue'),
+      redirect: '/'
     }
   ]
-  ,"navigationFallback": {
-    "redirect": '/',
-  }
 
 })
 
