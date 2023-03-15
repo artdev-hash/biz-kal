@@ -1,0 +1,16 @@
+<script setup>
+import icns from './icn.vue'
+import GitHubIcon from './icons/IconGitHub.vue'
+</script>
+<template>
+    <icns>
+    <template #icon>
+      <GitHubIcon />
+     </template>
+    <template #heading>👨‍💻 About Me</template>
+    <code>Developer: Kim Arthur Lorenzo</code><br>
+    <code>Position: Available for Job Offers</code><br>
+    <code>Currently: Working on Open-Source</code><br>
+    <code>Contact Me: <a href="https://twitter.com/devkimlorenzo" target="_blank" rel="noopener">@devkimlorenzo</a></code>
+    </icns>
+</template>

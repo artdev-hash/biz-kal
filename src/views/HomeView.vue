@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import index from '../components/index.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <index />
   </main>
 </template>

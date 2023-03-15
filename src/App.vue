@@ -1,18 +1,18 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import p1 from './components/p1.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <img alt="@arthurdev" class="circ" src="https://avatars.githubusercontent.com/u/73451368?v=4" width="120" height="120" />
     <div class="wrapper">
-      <HelloWorld msg="@github.com/artdev-hash" />
+      <p1 msg="github.com/artdev-hash" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About Biz-kal</RouterLink>
+        <RouterLink to="/projects">Projects</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
@@ -29,6 +29,19 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+.circ {   
+  display: block;
+  margin: 0 auto 2rem; 
+}
+.circ{ 
+  border-radius: 50%; 
+}
+.circ{ 
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+   border-bottom-left-radius: 50% 50%;
 }
 
 nav {
@@ -66,6 +79,9 @@ nav a:first-of-type {
   .logo {
     margin: 0 2rem 0 0;
   }
+  .circ {   
+    margin: 0 2rem 0 0;
+}
 
   header .wrapper {
     display: flex;
