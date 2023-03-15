@@ -28,7 +28,7 @@ const router = createRouter({
      "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
   }, 
   "responseOverrides": { 
-    "401": { "rewrite": "/login.html", "statusCode": 200 } 
+    "401": { "rewrite": "/index.html", "statusCode": 200 } 
   }
 })
 
