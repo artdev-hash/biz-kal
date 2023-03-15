@@ -25,7 +25,6 @@ const router = createRouter({
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
   }
 })
 
