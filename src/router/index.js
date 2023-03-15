@@ -27,18 +27,8 @@ const router = createRouter({
       // path: "*",
       path: '/:catchAll(.*)*',
       component: () => import('../views/ErrorNotFound.vue'),
-    },
-    {
-      "route": "/*",
-      "serve": "/index.html",
-      "statusCode": 200
     }
-  ], 
-    
-  "navigationFallback": {
-       "rewrite": "/index.html",
-       "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
-     }
+  ]
 
 })
 
