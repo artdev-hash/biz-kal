@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "homepage": "https://www.lorenzokimarthur.com",
+    "homepage": "https://www.lorenzokimarthur.com/",
     "deploy": "sh deploy.sh",
     "dev": "vite",
     "build": "vite build",
