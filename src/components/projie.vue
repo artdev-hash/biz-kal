@@ -9,7 +9,10 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
       <DocumentationIcon />
     </template>
     <template #heading><code>🚀 Projects and 🛰️ Collaborations</code></template>
-    <code>Recent >></code><br>
+    <code>Recent  >></code><br>
+    <code>- </code>
+    <code>- Hacktoberfest 22</code>
+    <code>- 30 Days Flutter 21</code>
     <code>- <a href="https://devs.flutter.ph/" target="_blank" rel="noopener">DEVS</a></code> <br>
     <code>- <a href="">SNAMEGENERATOR</a></code> <br>
     <code>- <a href="">KRPRT-OCTO-UPLOADER</a></code> <br>
@@ -18,6 +21,5 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <code>- <a href="">CQMS</a></code><br>
     <code>- <a href="">LMS</a></code><br>
     <code>- <a href="">vbex-dot.net</a></code>
-
   </icns>
 </template>
