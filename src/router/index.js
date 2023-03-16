@@ -6,13 +6,6 @@ const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      // path: "*",
-      path: '/:catchAll(.*)*',
-      redirect: {
-        name: 'home'
-      }
-    },
-    {
       path: '/',
       name: 'home',
       component: HomeView,
