@@ -10,7 +10,7 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     </template>
     <template #heading><code>🚀 Projects and 🛰️ Collaborations</code></template>
     <code>Recent  >></code><br>
-    <code>- </code>
+    <code>- lorenzokimarthur.com</code><br>
     <code>- Hacktoberfest 22</code><br>
     <code>- 30 Days Flutter 21</code><br>
     <code>- <a href="https://devs.flutter.ph/" target="_blank" rel="noopener">DEVS</a></code> <br>
