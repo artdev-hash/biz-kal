@@ -25,17 +25,17 @@ import SupportIcon from './icons/IconSupport.vue'
       <EcosystemIcon />
     </template>
     <template #heading> 📦  Field Experience</template>
-     Computer Science, Information Technology, Accounting and Treasury, Banking, Hospital, Enterprise
+     Computer Science, Information Technology, Accounting, Treasury, Banking, Hospital, Enterprise....
   </icns>
   <icns>
     <template #icon>
       <SupportIcon />
     </template>
     <template #heading> 📖   Read, Collaborate, Follow</template>
-    <a href="https://tree-nation.com/trees/view/4050126" target="blank" rel="noopener"><img align="center" src="../assets/img/treenationw.png" alt="artdev-hash" height="30" width="30" /></a>
-    <a href="https://www.lorenzokimarthur.com/" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//vite/white" alt="artdev-hash" height="30" width="40" /></a>
-    <a href="https://dev.to/artdevhash" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//dev.to/white" alt="artdev-hash" height="30" width="40" /></a>  
-    <a href="https://twitter.com/devkimlorenzo" target="blank"><img align="center" src="https://cdn.simpleicons.org//twitter/white" alt="artdev-hash" height="30" width="40" /></a>
+    <a href="https://tree-nation.com/trees/view/4050126" target="blank" rel="noopener"><img align="center" src="../assets/img/treenationw.png" alt="Tree-Nation" height="30" width="30" /></a>
+    <a href="https://www.lorenzokimarthur.com/" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//vite/white" alt="Vite" height="30" width="40" /></a>
+    <a href="https://dev.to/artdevhash" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//dev.to/white" alt="Dev.to" height="30" width="40" /></a>  
+    <a href="https://twitter.com/devkimlorenzo" target="blank"><img align="center" src="https://cdn.simpleicons.org//twitter/white" alt="Twitter" height="30" width="40" /></a>
   </icns>
   <icns>
     <template #icon>
@@ -59,6 +59,6 @@ import SupportIcon from './icons/IconSupport.vue'
       <CommunityIcon />
     </template>
     <template #heading>📲 Let's Talk</template>
-    Let's Talk about Vue js. you can DM me at <a href="https://twitter.com/devkimlorenzo" target="_blank" rel="noopener">@devkimlorenzo</a> +
+    Let's Talk ☕, You can DM me at <a href="https://twitter.com/devkimlorenzo" target="_blank" rel="noopener">@devkimlorenzo</a> +
   </icns>
 </template>
