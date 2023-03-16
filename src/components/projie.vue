@@ -11,8 +11,8 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <template #heading><code>🚀 Projects and 🛰️ Collaborations</code></template>
     <code>Recent  >></code><br>
     <code>- </code>
-    <code>- Hacktoberfest 22</code>
-    <code>- 30 Days Flutter 21</code>
+    <code>- Hacktoberfest 22</code><br>
+    <code>- 30 Days Flutter 21</code><br>
     <code>- <a href="https://devs.flutter.ph/" target="_blank" rel="noopener">DEVS</a></code> <br>
     <code>- <a href="">SNAMEGENERATOR</a></code> <br>
     <code>- <a href="">KRPRT-OCTO-UPLOADER</a></code> <br>
