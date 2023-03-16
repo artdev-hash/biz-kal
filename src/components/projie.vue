@@ -9,7 +9,7 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
       <DocumentationIcon />
     </template>
     <template #heading><code>🚀 Projects and 🛰️ Collaborations</code></template>
-    <code>The List </code><br>
+    <code>Recent >></code><br>
     <code>- <a href="https://devs.flutter.ph/" target="_blank" rel="noopener">DEVS</a></code> <br>
     <code>- <a href="">SNAMEGENERATOR</a></code> <br>
     <code>- <a href="">KRPRT-OCTO-UPLOADER</a></code> <br>
