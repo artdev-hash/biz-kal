@@ -35,8 +35,8 @@ import SupportIcon from './icons/IconSupport.vue'
     <a href="https://tree-nation.com/trees/view/4050126" target="blank" rel="noopener"><img align="center" src="../assets/img/treenationw.png" alt="Tree-Nation" height="30" width="30" /></a>
     <a href="https://www.lorenzokimarthur.com/" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//vite/white" alt="Vite" height="30" width="40" /></a>
     <a href="https://dev.to/artdevhash" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//dev.to/white" alt="Dev.to" height="30" width="40" /></a>  
-    <a href="https://twitter.com/devkimlorenzo" target="blank"><img align="center" src="https://cdn.simpleicons.org//twitter/white" alt="Twitter" height="30" width="40" /></a>
-    <a href="https://bio.link/kimlorenzo" target ="blank"><img align="center" src="https://cdn.simpleicons.org//biolink/white" alt="Bio.link" height="30" width="40" /></a>
+    <a href="https://twitter.com/devkimlorenzo" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//twitter/white" alt="Twitter" height="30" width="40" /></a>
+    <a href="https://bio.link/kimlorenzo" target ="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//biolink/white" alt="Bio.link" height="30" width="40" /></a>
   </icns>
   <icns>
     <template #icon>
