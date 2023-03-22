@@ -1,11 +1,11 @@
 <script setup>
 import icns from './icn.vue'
-import GitHubIcon from './icons/IconGitHub.vue'
+import DocumentationIcon from './icons/IconDocumentation.vue'
 </script>
 <template>
     <icns>
     <template #icon>
-      <GitHubIcon />
+      <DocumentationIcon />
      </template>
     <template #heading>👨‍💻 About Me</template>
     <code>Developer: Kim Arthur Lorenzo</code><br>
