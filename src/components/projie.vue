@@ -1,6 +1,7 @@
 <script setup>
 import icns from './icn.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
+import SupportIcon from './icons/IconSupport.vue'
 import CopyWright from './CopyWright.vue'
 </script>
 
@@ -23,6 +24,13 @@ import CopyWright from './CopyWright.vue'
     <code>- LMS - Library Management System</code><br>
     <code>- vbex-dot.net</code>
   </icns>
+  <icns>
+    <template #icon>
+      <SupportIcon />
+    </template>
+    <template #heading> ☕ Thank You for Supporting ❤️ </template>
+  Show some Love ❤️ | Buy me a Coffee ☕   <a href="https://www.buymeacoffee.com/kimdevprC" target="_blank" rel="noopener">..<br><br><img align="center" src="https://cdn.simpleicons.org//buymeacoffee/#0A0A0A" alt="artdev-hash" height="40" width="50" /></a>
+</icns>
   <br><br><br><br>
   <CopyWright />
 </template>
