@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import p1 from './components/p1.vue'
+
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import p1 from './components/p1.vue'
   </header>
 
   <RouterView />
+
 </template>
 
 <style scoped>

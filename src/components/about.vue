@@ -1,6 +1,7 @@
 <script setup>
 import icns from './icn.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
+import CopyWright from './CopyWright.vue'
 </script>
 <template>
     <icns>
@@ -13,4 +14,6 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <code>Currently: Working on Open-Source</code><br>
     <code>Contact Me: <a href="https://twitter.com/devkimlorenzo" target="_blank" rel="noopener">@devkimlorenzo</a></code>
     </icns>
+    <br><br><br><br>
+    <CopyWright />
 </template>

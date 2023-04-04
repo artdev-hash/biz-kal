@@ -1,6 +1,7 @@
 <script setup>
 import icns from './icn.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
+import CopyWright from './CopyWright.vue'
 </script>
 
 <template>
@@ -22,4 +23,6 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <code>- LMS - Library Management System</code><br>
     <code>- vbex-dot.net</code>
   </icns>
+  <br><br><br><br>
+  <CopyWright />
 </template>

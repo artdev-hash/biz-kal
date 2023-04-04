@@ -6,6 +6,7 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import CopyWright from './CopyWright.vue'
 </script>
 
 <template>
@@ -64,4 +65,6 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>📲 Let's Talk</template>
     Let's Talk ☕, You can DM me at <a href="https://twitter.com/devkimlorenzo" target="_blank" rel="noopener">@devkimlorenzo</a> +
   </icns>
+  <br><br><br><br>
+  <CopyWright />
 </template>
