@@ -1,7 +1,7 @@
 <template>
   <footer>
     <br>
-    Powered by <a href="https://github.com/artdev-hash/" target="_blank" title="artdev-hash">  artdev-hash </a> | Copyright © 2022-{{ date }} | MIT License
+    Powered by <a href="https://github.com/artdev-hash/" target="_blank" title="artdev-hash"> artdev-hash </a> | Copyright © 2022-{{ date }} | MIT License
   </footer>
 </template>
 <script lang="ts" setup>
