@@ -11,9 +11,9 @@ import p1 from './components/p1.vue'
       <p1 msg="github.com/artdev-hash" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/"> 🏠&nbsp; Home</RouterLink>
+        <RouterLink to="/projects"> 🚀 &nbsp; Projects</RouterLink>
+        <RouterLink to="/about"> 👨‍💻 &nbsp; About</RouterLink>
       </nav>
     </div>
   </header>
