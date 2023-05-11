@@ -8,7 +8,7 @@ import p1 from './components/p1.vue'
   <header>
     <img alt="@arthurdev" class="circ" src="https://avatars.githubusercontent.com/u/73451368?v=4" width="120" height="120" />
     <div class="wrapper">
-      <p1 msg="github.com/artdev-hash" />
+      <p1 msg="Kim Arthur Lorenzo" />
 
       <nav>
         <RouterLink to="/"> 🏠&nbsp; Home</RouterLink>
