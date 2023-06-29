@@ -15,10 +15,8 @@ import CopyWright from './CopyWright.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Hi there 👋 </template>
-    I'm <a href="https://www.lorenzokimarthur.com" target="_blank" rel="noopener">Kim Arthur Lorenzo</a> 👓, a <b>Self taught Developer </b> 👨‍💻 
-    aspiring to become an Expert in the field of <b>Mobile</b> 📱 Development. Always Curious, Hungry and Learning 🧬
-    <br>
-    Currently available for Project Offers.. See project below <RouterLink to="/projects">[click to see more..]</RouterLink>
+    I'm <a href="https://www.lorenzokimarthur.com" target="_blank" rel="noopener">Kim </a> 👓, a <b>Self taught Developer </b>
+    <br>See List of Projects <RouterLink to="/projects">[click to see more..]</RouterLink>
   </icns>
 
   <icns>
@@ -26,7 +24,7 @@ import CopyWright from './CopyWright.vue'
       <EcosystemIcon />
     </template>
     <template #heading> 📦  Field Experience</template>
-     Computer Science, Information Technology, Accounting, Treasury, Banking, Hospital, Enterprise....
+     <b>Computer Science, Information Technology, Accounting, Treasury, Banking, Hospital, Enterprise....</b>
   </icns>
   <icns>
     <template #icon>
@@ -35,7 +33,6 @@ import CopyWright from './CopyWright.vue'
     <template #heading> 📖   Read, Collaborate, Follow</template>
     <a href="https://tree-nation.com/trees/view/4050126" target="blank" rel="noopener"><img align="center" src="../assets/img/treenationw.png"  alt="Tree-Nation" height="30" width="30" /></a>
     <a href="https://www.lorenzokimarthur.com/" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//vite/darkslateblue" alt="Vite" height="30" width="40" /></a>
-    <a href="https://dev.to/artdevhash" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//dev.to/darkslateblue" alt="Dev.to" height="30" width="40" /></a>  
     <a href="https://twitter.com/devkimlorenzo" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//twitter/darkslateblue" alt="Twitter" height="30" width="40" /></a>
     <a href="https://bio.link/kimlorenzo" target ="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//biolink/darkslateblue" alt="Bio.link" height="30" width="40" /></a>
   </icns>
