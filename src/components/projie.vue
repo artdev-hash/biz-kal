@@ -12,6 +12,7 @@ import CopyWright from './CopyWright.vue'
     </template>
     <template #heading><code>🚀 Projects and 🛰️ Collaborations</code></template>
     <code>Recent  💡  >></code><br>
+    <code>- bicol translate</code><br>
     <code>- feedboard</code><br>
     <code>- lorenzokimarthur.com</code><br>
     <code>- Hacktoberfest 22</code><br>
@@ -20,9 +21,9 @@ import CopyWright from './CopyWright.vue'
     <code>- 30 Days Flutter 21</code><br>
     <code>- KRPRT-OCTO-UPLOADER</code><br>
     <code>- KSHARED-NOCTO-COPIER</code><br>
-    <code>- PLANBANK website</code><br>
-    <code>- CQMS - Customer Queuing Management System</code><br>
-    <code>- LMS - Library Management System</code><br>
+    <code>- PLANBANK</code><br>
+    <code>- CQMS</code><br>
+    <code>- LMS</code><br>
     <code>- vbex-dot.net</code>
   </icns>
   <icns>

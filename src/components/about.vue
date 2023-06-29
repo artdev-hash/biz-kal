@@ -12,6 +12,7 @@ import CopyWright from './CopyWright.vue'
     <code>A FullStack Developer</code><br>
     <code>Status: <b>Available and Freelancing</b></code><br>
     <code>Currently: <b>on Open-Source, Projects, Assignments and Layout</b></code><br>
+    <code>Contact Me: <a href="mailto:dev@lorenzokimarthur.com" target="_blank" rel="noopener">dev</a></code>
     </icns>
     <br><br><br><br>
     <CopyWright />
