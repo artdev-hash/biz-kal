@@ -16,7 +16,7 @@ import CopyWright from './CopyWright.vue'
     </template>
     <template #heading>Hi there 👋 </template>
     I'm <a href="https://www.lorenzokimarthur.com" target="_blank" rel="noopener">Kim </a> 👓, a <b>Self taught Developer </b>
-    <br>See List of Projects <RouterLink to="/projects">[click to see more..]</RouterLink>
+    <br>See List of Projects..<RouterLink to="/projects">[click to see more..]</RouterLink>
   </icns>
 
   <icns>
