@@ -60,7 +60,7 @@ import CopyWright from './CopyWright.vue'
       <CommunityIcon />
     </template>
     <template #heading>📲 Let's Talk</template>
-    Let's Talk ☕, You can DM me at <a href="https://twitter.com/devkimlorenzo" target="_blank" rel="noopener">@devkimlorenzo</a> +
+    Let's Talk ☕, You can DM me at <a href="mailto:dev@lorenzokimarthur.com" target="_blank" rel="noopener">@dev</a> +
   </icns>
   <br><br><br><br>
   <CopyWright />
