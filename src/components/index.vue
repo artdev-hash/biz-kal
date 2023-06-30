@@ -60,8 +60,44 @@ import CopyWright from './CopyWright.vue'
       <CommunityIcon />
     </template>
     <template #heading>📲 Let's Talk</template>
+    <div class="typewriter-effect">
+    <div class="text" id="typewriter-text"></div>
     Let's Talk ☕, You can DM me at <a href="mailto:dev@lorenzokimarthur.com" target="_blank" rel="noopener">@dev</a> +
+    </div>
   </icns>
   <br><br><br><br>
   <CopyWright />
 </template>
+<style scoped>
+
+.typewriter-effect > .text {
+  max-width: 0;
+  animation: typing 3s steps(var(--characters)) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typewriter-effect::after {
+  content: " |";
+  animation: blink 1s infinite;
+  animation-timing-function: step-end;
+}
+
+@keyframes typing {
+  75%,
+  100% {
+    max-width: calc(var(--characters) * 1ch);
+  }
+}
+
+@keyframes blink {
+  0%,
+  75%,
+  100% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}
+  </style>
