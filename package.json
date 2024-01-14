@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "base": "/biz-kal/",
     "deploy": "sh deploy.sh",
     "dev": "vite",
     "build": "vite build",
