@@ -12,4 +12,8 @@ This is a Simple Profile Web Template
 for more updates
 visit 
 
-https://www.lorenzokimarthur.com/
+Developer https://www.lorenzokimarthur.com/
+
+Let's Talk : dev@lorenzokimarthur.com
+
+Thank you for your support ☕ 💓
