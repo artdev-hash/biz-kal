@@ -28,29 +28,35 @@ import CopyWright from './CopyWright.vue'
   </icns>
   <icns>
     <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading> 📖   Read, Collaborate, Follow</template>
-    <a href="https://tree-nation.com/trees/view/4050126" target="blank" rel="noopener"><img align="center" src="../assets/img/treenationw.png"  alt="Tree-Nation" height="30" width="30" /></a>&nbsp;
-    <a href="https://www.facebook.com/kimITservices" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//facebook/darkslateblue" alt="Vite" height="30" width="30" /></a>
-    <a href="https://twitter.com/devkimlorenzo" target="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//x/darkslateblue" alt="Twitter" height="30" width="40" /></a>
-    <a href="https://bio.link/kimlorenzo" target ="blank" rel="noopener"><img align="center" src="https://cdn.simpleicons.org//biolink/darkslateblue" alt="Bio.link" height="30" width="40" /></a>
-  </icns>
-  <icns>
-    <template #icon>
       <ToolingIcon />
     </template>
     <template #heading>📚 Working on Technologies </template>
-<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></code>&nbsp;
-<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></code>&nbsp;
-<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></code>&nbsp;
-<code><img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg" alt="vue js" width="40" height="40"/></code>&nbsp;
-<code><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/></code>&nbsp;
-<code><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/></code>&nbsp;
-<code><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"></code>&nbsp;
-<code><img src="https://raw.githubusercontent.com/artdev-hash/devicon/master/icons/appwrite/appwrite-original.svg" alt="appwrite" width="40" height="40"></code>&nbsp;
-<code><img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" alt="cloudflare" width="40" height="40"></code>&nbsp;
-<code><img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40" height="40"></code>
+    <div class="container">
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></div>
+    <div class="image"><img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" alt="vitejs" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vue js" width="40" height="40"/></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart" width="40" height="40"/></div>
+    <div class="image"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" alt="laravel" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg" alt="firebase" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/artdev-hash/devicon/master/icons/appwrite/appwrite-original.svg" alt="appwrite" width="40" height="40"></div>
+    <div class="image"><img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" alt="cloudflare" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-original.svg" alt="visualstudio" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mariadb/mariadb-original.svg" alt="mariadb" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" alt="apache" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="mssql" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt=".net" width="40" height="40"></div>
+    <div class="image"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualbasic/visualbasic-original.svg" alt="visualbasic.net" width="40" height="40"></div>
+
+    </div>
   </icns>
 
 
@@ -70,6 +76,14 @@ import CopyWright from './CopyWright.vue'
 </template>
 <style scoped>
 
+.container {
+  align-items: center; 
+  float: left;
+}
+.image{
+    float: left;
+  padding: 5px;
+}
 .typewriter-effect > .text {
   max-width: 0;
   animation: typing 3s steps(var(--characters)) infinite;
