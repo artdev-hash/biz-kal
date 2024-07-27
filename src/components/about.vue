@@ -10,7 +10,7 @@ import CopyWright from './CopyWright.vue'
      </template>
     <template #heading>👨‍💻 About Me</template>
     <code>A FullStack Developer</code><br>
-    <code>Status: <b>Available and Freelancing</b></code><br>
+    <code>Status: <b>Available / Open for Commissions</b></code><br>
     <code>Currently: <b>on Open-Source, Projects, Assignments and Layout</b></code><br>
     <div class="typewriter-effect">
     <div class="text" id="typewriter-text"></div>
